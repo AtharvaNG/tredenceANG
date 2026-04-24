@@ -1,6 +1,6 @@
 ## Observations
 
-- The sparsity achieved in limited training (2 epochs, small dataset) remains low (~0.01%).
+- The sparsity achieved in limited training (less epochs, small dataset) remains low .
 - This is expected because:
   - Sigmoid gates tend to saturate slowly and require longer training to push values toward zero.
   - The classification loss dominates early training, preventing aggressive pruning.
