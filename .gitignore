@@ -1,0 +1,15 @@
+# Python cache
+__pycache__/
+*.pyc
+
+# Dataset
+data/
+*.tar.gz
+
+# OS junk
+.DS_Store
+Thumbs.db
+
+# Virtual env
+venv/
+.env
